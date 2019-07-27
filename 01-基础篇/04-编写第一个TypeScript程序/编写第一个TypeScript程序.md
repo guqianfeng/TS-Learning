@@ -45,7 +45,7 @@
                 防止引用缓存的外部文件问题
             2. 可以生成创建html入口文件，比如单页面可以生成一个html文件入口，
                 配置N个html-webpack-plugin可以生成N个页面入口 
-        * 输入指令`npm i html-webpack-plugin typescript -D` 
+        * 输入指令`npm i html-webpack-plugin -D` 
         * 现在可以简单看下公共环境的配置，具体代码是这样的
             ```
             const HtmlWebpackPlugin = require('html-webpack-plugin')
