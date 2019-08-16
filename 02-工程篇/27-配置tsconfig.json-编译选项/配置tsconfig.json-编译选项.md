@@ -85,4 +85,63 @@
         
     16. strict
         * 开启所有严格的类型检查
-        * 如果这个属性为true，类型检查选项则都为true                    
+        * 如果这个属性为true，类型检查选项则都为true          
+        
+    17. alwaysStrict
+        * 在代码中注入**use strict**
+        
+    18. noImplicitAny
+        * 不允许隐式的any类型
+        
+    19. strictNullChecks
+        * 不允许把null，undefined赋值给其他类型    
+        
+    20. strictFunctionTypes
+        * 不允许函数参数的双向协变
+        
+    21. strictPropertyInitialization
+        * 类的实例必须要初始化 
+        
+    22. strictBindCallApply
+        * 执行严格的bind, call, apply检查
+        
+    23. noImplicitThis
+        * 不允许this有隐式的any类型 
+        
+    24. noUnusedLocals
+        * 检查只声明未使用的局部变量                                     
+    
+    25. noUnusedParameters
+        * 检查函数中未使用的参数
+    
+    26. noFallthroughCasesInSwitch
+        * 防止switch语句贯穿
+        
+    27. noImplicitReturns
+        * 每个分支都要有返回值
+        * 开启这个选项，if，else都要有返回值            
+    
+    28. esModuleInterop
+        * 允许**export = 导出**，由**import from**导入
+        
+    29. allowUmdGlobalAccess
+        * 允许在模块中访问umd全局变量
+        
+    30. moduleResolution
+        * 模块的解析策略，ts默认使用node    
+        
+    31. baseUrl
+        * 解析非相对模块的基地址，默认就是当前目录
+        
+    32. path
+        * 路径映射，相对于baseUrl
+        
+    33. rootDirs
+        * 将多个目录放在一个虚拟目录下，用于运行时 
+        * 注意: 和rootDir是2个完全不同的概念
+        
+    34. listEmittedFiles
+        * 打印输出文件
+   
+    35. listFiles
+        * 打印编译的文件(包括引用的声明文件)                           
