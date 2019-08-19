@@ -38,6 +38,7 @@
     *  [如何编写声明文件](./02-工程篇/25-如何编写声明文件/如何编写声明文件.md)
     *  [配置tsconfig.json-文件选项](./02-工程篇/26-配置tsconfig.json-文件选项/配置tsconfig.json-文件选项.md)
     *  [配置tsconfig.json-编译选项](./02-工程篇/27-配置tsconfig.json-编译选项/配置tsconfig.json-编译选项.md)
+    *  [配置tsconfig.json-工程引用](./02-工程篇/28-配置tsconfig.json-工程引用/配置tsconfig.json-工程引用.md)
 
 3. 实战篇
 
