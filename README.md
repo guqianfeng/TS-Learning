@@ -40,6 +40,7 @@
     *  [配置tsconfig.json-编译选项](./02-工程篇/27-配置tsconfig.json-编译选项/配置tsconfig.json-编译选项.md)
     *  [配置tsconfig.json-工程引用](./02-工程篇/28-配置tsconfig.json-工程引用/配置tsconfig.json-工程引用.md)
     *  [编译工具-从ts-loader到Babel](./02-工程篇/29-编译工具-从ts-loader到Babel/编译工具-从ts-loader到Babel.md)
+    *  [代码检查工具-从TSLint到ESLint](./02-工程篇/30-代码检查工具-从TSLint到ESLint/代码检查工具-从TSLint到ESLint.md)
 
 3. 实战篇
 
