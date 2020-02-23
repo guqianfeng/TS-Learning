@@ -71,4 +71,8 @@
         2. 将之前写的math.ts和math.test.ts拷贝到babel项目
     3. `npm run test`测试依然通过
     4. babel-jest依然没有类型检查，依然需要执行类型检查脚本`npm run type-check`           
+
+> 目录
+
+* [返回目录](../../README.md)    
         

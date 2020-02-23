@@ -50,4 +50,8 @@
     * --verbose 表示需要打印出一些构建信息
     
 5. 可以参考ts官方的配置文件  
-    * [官方网站](https://github.com/microsoft/TypeScript)  
+    * [官方网站](https://github.com/microsoft/TypeScript) 
+
+> 目录
+
+* [返回目录](../../README.md)     
