@@ -5,7 +5,7 @@
 * 环境搭建
 
     * 安装Node.js
-    * 安装TypeScript编译器
+    * 安装TypeScript编译器，`npm install -g typescript`
 
 * 编写代码及编译执行
 * 一些有用的编译选项
