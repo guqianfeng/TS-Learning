@@ -1,14 +1,31 @@
-function myCss(el: HTMLElement, attr: keyof CSSStyleDeclaration, value: string | number){
-    if(attr != "length" && attr != "parentRule"){
-        el.style[attr] = value;
+interface Target{
+    attrArr: Array<keyof CSSStyleDeclaration>,
+    targetArr?: Array<string | number>
+}
+
+function myCss(el: HTMLElement, target: Target){
+    if(target.targetArr){
+        //设置样式
+        target.attrArr.forEach((attr, index) => {
+            if(attr != "length" && attr != "parentRule" && target.targetArr){
+                el.style[attr] = target.targetArr[index];
+            }
+        })
+    }else{
+        //获取样式
+        return target.attrArr.map(attr => getComputedStyle(el)[attr])
     }
 }
 
 let myDiv = document.querySelector("#wrap") as HTMLElement;
 if(myDiv){
-    myCss(myDiv, "width", "200px")
-    myCss(myDiv, "height", "200px")
-    myCss(myDiv, "opacity", .5)
-    myCss(myDiv, "background", "skyblue")
-
+    //设置
+    myCss(myDiv, {
+        attrArr: ["width", "height", "backgroundColor", "opacity"],
+        targetArr: ["100px", "200px", "skyblue", ".5"]
+    })
+    //获取
+    console.log(myCss(myDiv,{
+        attrArr: ["width", "height", "backgroundColor", "opacity"]
+    }))
 }
