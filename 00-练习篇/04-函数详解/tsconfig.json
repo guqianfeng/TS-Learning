@@ -3,8 +3,8 @@
         "outDir": "./dist",
         "target": "ES6",
         "watch": true,
-        "strictNullChecks": true,
-        "noImplicitAny": true
+        // "strictNullChecks": true,
+        // "noImplicitAny": true
     },
     "include": ["./src/**/*"]
 }
